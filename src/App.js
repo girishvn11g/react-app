@@ -36,9 +36,9 @@ class App extends Component {
     }, 1000);
   }
 
-  // componentWillMount() {
-  //   console.log("will mount");
-  // }
+  componentWillMount() {
+    console.log("will mount");
+  }
 
   alert(notification) {
     this.setState({
